@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DESCRIPCION_DE_LA_PAGINA">
+    <meta name="author" content="TU_NOMBRE">
+
+    </title>Mejores canciones</title>
+</head>
+<body>
+    <!-- Comentario random HTML -->
+     <header><h1>Shakira</h1>
+     <nav>
+<ul>
+    <li><a href="/Users/felmasalinas/Documents/diseñoweb/index.html">Inicio</a></li>
+    <li><a href="/Users/felmasalinas/Documents/diseñoweb/secciones/galeria.html">Galería</a></li>
+    <li><a href="/Users/felmasalinas/Documents/diseñoweb/secciones/canciones.html">Mejores canciones</a></li>
+    <li><button onclick="miVentana.showModal()">Acerca de</button></li>
+</ul>
+</nav>
+     </header>
+     <aside> 
+        <article>Redes sociales</article>
+        <a href=“https://www.instagram.com/shakira/”> Instagram</a>
+        <a href=“https://www.facebook.com/shakira”> Facebook</a>
+        <a href=“https://www.ticketmaster.com.mx/shakira-boletos/artist/779049”>TicketMaster </a>
+        <article>Enlaces de interes</article>
+        <a href=“https://es.wikipedia.org/wiki/Shakira”> </a>
+        <a href=“https://www.youtube.com/channel/UCYLNGLIzMhRTi6ZOLjAPSmw”> </a>
+        <a href=“https://open.spotify.com/intl-es/artist/0EmeFodog0BfCgMzAIvKQp”> </a>
+     </aside>
+       <!-- Aqui borramos main -->
+      <main>
+
+<ol>
+
+<li>
+<div>
+
+<img src="../galeria/shakiramicro.jpg" alt="Álbum Shakira" width="200">
+
+<audio controls src="../audios/2-YO QUISIERA SER EL REY.MP3"></audio>
+
+</div>
+</li>
+
+<li>
+<div>
+
+<img src="../galeria/shakirapose.jpg" alt="Álbum Shakira" width="200">
+
+<audio controls src="../audios/6 SIMBA REGRESA.mp3"></audio>
+
+</div>
+</li>
+
+<li>
+<div>
+
+<img src="../galeria/shakirabaile.jpg" alt="Álbum Shakira" width="200">
+
+<audio controls src="../audios/si te vas shakira.mp3"></audio>
+
+</div>
+</li>
+
+</ol>
+
+</main>
+
+<dialog id="miVentana">
+
+<button onclick="miVentana.close()">Cerrar</button>
+
+<h2>¡Bienvenido a la página! 🎵</h2>
+
+<p>
+Esta página está dedicada a la música y a conocer más sobre Shakira.
+</p>
+
+<img src="../img/shakira.jpg" width="200">
+
+<p>¡Mantente informado! 🎶</p>
+
+</dialog>
+
+<footer>
+    <!-- Formulario buzon noticias -->
+
+<form>
+    <fieldset>
+        <legend>Registrarme al buzón de noticias</legend>
+
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre">
+
+        <label for="nacimiento">Fecha de nacimiento</label>
+        <input type="date" id="nacimiento">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea placeholder="Motivo por el que quieres inscribirte al buzón..."></textarea>
+
+        <label for="pais">País</label>
+        <select id="pais">
+            <option>México</option>
+            <option>Estados Unidos</option>
+            <option>Otro</option>
+        </select>
+
+        <label for="ocupacion">Ocupación</label>
+        <input type="text" id="ocupacion" list="ocupaciones">
+
+        <datalist id="ocupaciones">
+    <option>Estudiante</option>
+    <option>Profesor</option>
+    <option>Programador</option>
+    <option>Diseñador</option>
+    <option>Ingeniero</option>
+    <option>Otro</option>
+</datalist>
+<button type="submit">Enviar</button>
+    </fieldset>
+</form>
+    Derechos reservados 2026</footer>
+</body>
+</html>
